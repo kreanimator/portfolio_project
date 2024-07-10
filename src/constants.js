@@ -16,7 +16,7 @@ export const dialogueData = {
    they'll keep me up all night doing mental gymnastics!`,
 
   cv: `This is my desk and on it is my CV. <a href="https://github.com/kreanimator/portfolio_project/blob/main/public/Valentin_Bakin_CV.pdf" target="_blank">Check it out?</a>
-  Contact me at backin.v@gmail.com if you have any interesting job opportunities!`,
+  Contact me at <a href ="mailto:backin.v@gmail.com" target="_blank"> backin.v@gmail.com</a> if you have any interesting job opportunities!`,
     bookshelf: `Behold my mighty bookshelf, stacked with programming books I ambitiously purchased.
     There's even one in French (oui, je parle francais et hebreu too!). Fun fact: I've read exactly one.
      Anyone else treat tech books like Pokemon cards? Gotta buy 'em all, never read 'em all!`,
