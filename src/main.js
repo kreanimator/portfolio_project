@@ -1,5 +1,6 @@
 import { scaleFactor } from "./constants";
 import  { k } from "./kaboomCtx";
+import { displayDialogue } from "./utils";
 
 k.loadSprite("spritesheet", "./spritesheet.png", {
     sliceX: 39,
@@ -59,13 +60,25 @@ k.scene("main", async () =>  {
                 if (boundary.name){
                     player.onCollide(boundary.name, () => {
                         player.isInDialogue = true;
-                        //TODO
+                        displayDialogue("test", () => (player.isInDialogue = false));
                     });
                 }
-
             }
         }
+        continue;
     }
+
+        if (layer.name === "spawn_points") {
+            for(const entity of layer.objects){
+                if (entity.name === "player"){
+                    player.pos = k.vec2(
+                        (map.pos.x + entity.x) * scaleFactor,
+                        (map.pos.y + entity.y) * scaleFactor
+                    );
+                    k.add(player);
+                }
+            }
+        }
 });
 
 
