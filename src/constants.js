@@ -15,7 +15,7 @@ export const dialogueData = {
    usually right when I'm about to sleep. If I don't jot them down,
    they'll keep me up all night doing mental gymnastics!`,
 
-  cv: `This is my desk and on it is my CV. <a href="" target="_blank">Check it out?</a>
+  cv: `This is my desk and on it is my CV. <a href="https://github.com/kreanimator/portfolio_project/blob/main/public/Valentin_Bakin_CV.pdf" target="_blank">Check it out?</a>
   Contact me at backin.v@gmail.com if you have any interesting job opportunities!`,
     bookshelf: `Behold my mighty bookshelf, stacked with programming books I ambitiously purchased.
     There's even one in French (oui, je parle francais et hebreu too!). Fun fact: I've read exactly one.
